@@ -41,7 +41,6 @@
   flex-direction: row;
   height: 90px;
   background-color: #000;
-  margin-left: ;
   width: 80%;
 
 } 
@@ -97,4 +96,39 @@ a.dropdown-link:hover {
   top: 40px;
   left: 70rem;
   padding: 0 50px;
+}
+
+@media screen and (max-width: 483px) {
+  .navbar_wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar_items {
+    width: 100%;
+    height: auto;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    margin-left: 50px;
+    white-space: nowrap;
+  }
+
+  .dropdown , a.head_title {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
