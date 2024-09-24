@@ -1,5 +1,14 @@
  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+:root {
+    --green: #00e77f;
+    --white: #fff;
+    --light-white: #aaa;
+    --black: #3d3d3d;
+    --light-bg: #4b4b4b;
+
+}
+
 
  * {
     font-family: "Rubik", sans-serif;
@@ -11,4 +20,31 @@
     transition: 0.2s linear;
     text-decoration: none;
     text-transform: capitalize;
+ }
+
+ *::selection {
+    background-color: var(--white);
+    color: var(--black);
+ }
+ html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+ }
+
+ ::-webkit-scrollbar {
+    height: 0.5rem;
+    width: 1rem;
+ }
+ ::-webkit-scrollbar-track {
+    background-color: transparent;
+ }
+ ::-webkit-scrollbar-thumb {
+    background: var(--green);
+    border-radius: 5rem;
+ }
+
+ body {
+    background: var(--black);
  }
