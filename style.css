@@ -48,3 +48,25 @@
  body {
     background: var(--black);
  }
+
+ section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+ }
+
+ .header {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: var(--light-bg);
+ }
+
+ .header .flex {
+    position: absolute;
+    display: flex;
+    
+    justify-content: space-between;
+ }
