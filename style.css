@@ -120,9 +120,10 @@
    margin-bottom: 1rem;
    font-size: 10rem;
    color: var(--white);
+   line-height: 1;
  }
 
- .home .row .content span {
+ .home .row .content h3 span {
    color: var(--green);
  }
 
