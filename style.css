@@ -91,11 +91,40 @@
  }
 
 
+/*home style starts here*/
+ .home {
+   margin-top: 6rem;
+ }
 
+ .home .row {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+ }
 
+ .home .row .content {
+   flex: 1 1 40rem;
+   text-align: center;
+ }
 
+ .home .row .image {
+   flex: 1 1 40rem;
+ }
+ 
+ .home .row .image img {
+   width: 100%;
+ }
+ 
+ .home .row .content h3 {
+   margin-bottom: 1rem;
+   font-size: 10rem;
+   color: var(--white);
+ }
 
-
+ .home .row .content span {
+   color: var(--green);
+ }
 
 
 
