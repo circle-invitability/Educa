@@ -195,9 +195,19 @@ flex-wrap: wrap;
 }
 
 .about .row .content {
+  text-align: center;
   flex: 1 1 40rem;
 }
-
+.about .row .content h3 {
+  font-size: 3rem;
+  color: var(--white);
+}
+.about .row .content p {
+  padding: 1rem 0;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  color: var(--light-white)
+}
 
 
 
@@ -255,4 +265,8 @@ flex-wrap: wrap;
    html {
       font-size: 50%;
    }
+   .home .row .content h3 {
+    font-size: 8rem;
+  }
+
  }
