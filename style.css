@@ -210,6 +210,31 @@ flex-wrap: wrap;
 }
 
 
+/*Courses style goes here*/
+.heading {
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-size: 4rem;
+  color: var(--white);
+
+}
+.heading span {
+  color: var(--green);
+}
+
+.courses .slid {
+  width: 30em;
+  background-color: var(--light-bg);
+  
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -266,7 +291,7 @@ flex-wrap: wrap;
       font-size: 50%;
    }
    .home .row .content h3 {
-    font-size: 8rem;
+    font-size: 5rem;
   }
 
  }
